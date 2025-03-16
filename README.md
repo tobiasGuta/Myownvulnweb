@@ -31,6 +31,17 @@ sudo apt install apache2
 sudo apt install php libapache2-mod-php
 ```
 
+# Test Apache and PHP
+Create a Test PHP File (Optional): You can create a simple info.php file to check if PHP is working correctly:
+
+```bash
+echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
+```
+
+```bash
+http://localhost/info.php
+```
+
 1. Clone this repository:
 ```bash
 git clone https://github.com/tobiasGuta/Myownvulnweb.git
@@ -48,14 +59,5 @@ sudo cp * /var/www/html/
 sudo chown -R $USER:$USER /var/www/html/
 ```
 
-Step 4: Test Apache and PHP
-Create a Test PHP File (Optional): You can create a simple info.php file to check if PHP is working correctly:
 
-```bash
-echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/info.php
-```
-
-```bash
-http://localhost/info.php
-```
 
