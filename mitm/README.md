@@ -1,2 +1,2 @@
-sudo chown www-data:www-data users.txt
-sudo chmod 644 users.txt
+- sudo chown www-data:www-data users.txt
+- sudo chmod 644 users.txt
