@@ -17,7 +17,6 @@ Prerequisites
 To run these applications, you will need the following:
 
 - Apache Web Server (for PHP apps)
-- MySQL Database (for any potential demo)
 - PHP (for PHP applications)
 - Wireshark (for capturing traffic, in the case of Man-in-the-Middle attacks)
 - Optional: Docker for running the apps in a containerized environment
