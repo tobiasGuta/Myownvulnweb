@@ -1,4 +1,4 @@
-# Broken Auth, SQLi, and File Upload - CTF Lab
+# Broken Auth, SQLi, and File Upload, Lfi - CTF Lab
 
 A deliberately vulnerable Flask-based web app designed for CTF-style hacking practice.
 
