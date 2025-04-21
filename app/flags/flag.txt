@@ -1,0 +1,1 @@
+CTF{broken_auth_bypassed}
